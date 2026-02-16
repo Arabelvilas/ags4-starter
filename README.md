@@ -1,8 +1,42 @@
 # ags4-starter
-Minimal reproducible AGS data validation and exploration toolkit for geotechnical engineers.
 
-AGS4 is the industry standard format for geotechnical and geoenvironmental data exchange in the UK and internationally. Using Python and the python-ags4 library, you can read, convert, validate, and export AGS4 files, allowing you to automate repetitive data handling tasks and replace manual spreadsheet workflows with reproducible scripts.
+Minimal reproducible AGS4 data validation and exploration toolkit for geotechnical engineers.
+
+This repository demonstrates how to read, validate, convert and export AGS4 files using Python and the `python-ags4` library.  
+It replaces manual spreadsheet workflows with transparent, reproducible scripts.
+
+---
+
+## Why This Exists
+
+AGS4 is the industry-standard data exchange format for geotechnical investigations in the UK and internationally.
+
+In practice, AGS files are often:
+- Manually converted to Excel
+- Copied between spreadsheets
+- Modified without traceability
+- Poorly validated before analysis
+
+This toolkit demonstrates a structured Python workflow to:
+
+- Load AGS groups as pandas DataFrames  
+- Convert string fields to numeric types  
+- Validate AGS structure  
+- Export clean outputs to Excel or back to AGS  
+- Form the basis for reproducible geotechnical data analysis  
+
+This is the foundation layer for automated geotechnical workflows.
+
+---
+
+## Dependencies
+
+Install required packages:
+
+```bash
+pip install python-AGS4 pandas openpyxl matplotlib
 
 Check it here: https://www.geotechpython.com/?p=197
 
 Use this only for reference
+
