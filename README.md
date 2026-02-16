@@ -37,9 +37,11 @@ Check more about AGS4 in my blog: https://www.geotechpython.com/?p=197
 
 Install required packages:
 
-pip install python-AGS4 pandas openpyxl matplotlib pathlib
+    pip install python-AGS4 pandas openpyxl matplotlib
 
+Import in Python:
+
+```python
 from python_ags4 import AGS4
 from pathlib import Path
 import pandas as pd
-
