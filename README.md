@@ -27,6 +27,10 @@ This toolkit demonstrates a structured Python workflow to:
 
 This is the foundation layer for automated geotechnical workflows.
 
+Use this only for reference
+
+Check more about AGS4 in my blog: https://www.geotechpython.com/?p=197
+
 ---
 
 ## Dependencies
@@ -36,7 +40,5 @@ Install required packages:
 ```bash
 pip install python-AGS4 pandas openpyxl matplotlib
 
-Check it here: https://www.geotechpython.com/?p=197
 
-Use this only for reference
 
